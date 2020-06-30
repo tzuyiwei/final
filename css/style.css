@@ -52,7 +52,7 @@ section {
 ------------------------------------------------------------*/
 #home {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: url("../image/home.png");
     background-size: cover;
     position: relative;
@@ -75,10 +75,6 @@ section {
     margin: 15px 0 0 0 0;
 }
 
-#home p span {
-    color: #a42ee4;
-    letter-spacing: 1px;
-}
 
 #home .btnmargin {
     margin-left: 55vw;
@@ -104,8 +100,8 @@ section {
 ------------------------------------------------------------*/
 #face {
     width: 100%;
-    height: 100vh;
-    background: url("../image/back.png") top right no-repeat;
+    height: auto;
+    background: url("../image/back.png");
     background-size: cover;
     position: relative;
 }
